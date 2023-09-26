@@ -26,7 +26,7 @@ const greeting = {
     "An enthusiastic industrial engineer and Full Stack software developer 🚀 with experience in building web applications using JavaScript / React / Node / Express, in addition to some other fascinating libraries and frameworks. Engineering and marketing, my other two passions!"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1zJGAnSDb9M2zgoeqhHoUBsVl6dCzLz0c/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1f3MSNIrRhiQzODVnzdWOPHb-0yn6IF1F/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
