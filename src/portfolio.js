@@ -1,6 +1,6 @@
 /* Change this file to get your personal Portfolio */
 
-// To change portfolio colors globally go to the  _globalColor.scss file
+// To change portfolio colors globally go to the _globalColor.scss file
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Paz Papa",
-  title: "Hola, soy Gero!",
+  title: "Hello, I'm Gero!",
   subTitle: emoji(
-    "Un apasionado ingenierio y desarrollador de software Full Stack 🚀con experiencia en la creación de aplicaciones web en JavaScript / React / Node / Express y algunas otras bibliotecas y frameworks interesantes. Ingenieria y MKT mis otras dos pasiones!"
+    "An enthusiastic industrial engineer and Full Stack software developer 🚀 with experience in building web applications using JavaScript / React / Node / Express, in addition to some other fascinating libraries and frameworks. Engineering and marketing, my other two passions!"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1zJGAnSDb9M2zgoeqhHoUBsVl6dCzLz0c/view?usp=sharing", // Set to empty to hide the button
@@ -42,7 +42,7 @@ const socialMediaLinks = {
   //facebook: "https://www.facebook.com/saad.pasta7",
   //medium: "https://medium.com/@saadpasta",
   //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
+  // Instagram, Twitter, and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
@@ -50,22 +50,22 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "Lo que hago y techs!",
+  title: "What I do and techs!",
   subTitle:
-    "Soy un desarrollador copado que le gusta investigar diferentes tech stack y tambien ademas, aprender de los compañeros!",
+    "I'm a cool developer who likes to explore different tech stacks, and also, learn from colleagues!",
   skills: [
     emoji(
-      "⚡ Desarrollo proyectos web en Front-end / Back-end, altamente interactivas para sus aplicaciones web y móviles"
+      "⚡ Develop highly interactive Front-end / Back-end web projects for your web and mobile applications"
     ),
     emoji(
-      "⚡ Trabajo también en marketing, realizando activaciones de marca, como en edición de videos / fotos también"
+      "⚡ Also work in marketing, doing brand activations, as well as video / photo editing"
     ),
     emoji(
-      "⚡ Busco la manera de resolver procesos y problemas de manera eficiente y practica, con una mirada ingenieril"
+      "⚡ I look for ways to solve processes and problems efficiently and practically, with an engineering perspective"
     )
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
+  /* Make Sure to include the correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
@@ -130,7 +130,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-git"
     },
     {
-      skillName: "INGLÉS",
+      skillName: "ENGLISH",
       fontAwesomeClassname: "fas fa-globe"
     },
     {
@@ -154,25 +154,25 @@ const educationInfo = {
       schoolName: "Henry",
       logo: require("./assets/images/henryLogo.png"),
       subHeader: "Full Stack Web Developer",
-      duration: "Mayo 2023 - Septiembre 2023",
-      desc: "800 Horas",
-      descBullets: ["800 hs de cursado teórico-práctico"]
+      duration: "May 2023 - September 2023",
+      desc: "800 Hours",
+      descBullets: ["800 hours of theoretical-practical coursework"]
     },
     {
       schoolName: "Universidad del Norte Santo Tomas de Aquino",
       logo: require("./assets/images/unstaLogo.png"),
-      subHeader: "Ingeniero Industrial",
-      duration: "Marzo 2017 - Febrero 2023",
-      desc: "Entre las universidades mas importante del norte del pais, enfocada en las ingenierias",
-      descBullets: ["Titulo de ingeniero, con validez a nivel internacional."]
+      subHeader: "Industrial Engineer",
+      duration: "March 2017 - February 2023",
+      desc: "One of the most important universities in the northern region of the country, focused on engineering",
+      descBullets: ["Engineer's degree with international validity"]
     },
     {
       schoolName: "FASTA Ángel María Boisdron",
       logo: require("./assets/images/BoisdronLogo.png"),
-      subHeader: "Colegio Ciencias y Tecnologías",
-      duration: "Marzo 2010 - Diciembre 2016",
+      subHeader: "Science and Technology High School",
+      duration: "March 2010 - December 2016",
       //desc: "800 Horas",
-      descBullets: ["Especializado en Ciencias y Tecnologías"]
+      descBullets: ["Specialized in Science and Technology"]
     }
   ]
 };
@@ -180,10 +180,10 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true, // Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Frontend / Design", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
@@ -191,7 +191,7 @@ const techStack = {
       progressPercentage: "70%"
     },
     {
-      Stack: "Diseño en imagenes / videos",
+      Stack: "Image / Video Editing",
       progressPercentage: "90%"
     }
   ],
@@ -207,49 +207,49 @@ const workExperiences = {
       role: "Full Stack Developer, Marketing",
       company: "Freelance",
       companylogo: require("./assets/images/fullstackLogo.jpg"),
-      date: "Mar 2020 - Actual",
-      desc: "Argentina/Estados Unidos.",
+      date: "Mar 2020 - Present",
+      desc: "Argentina/United States.",
       descBullets: [
-        "Desarrollar e-commerce, landing pages y aplicaciones web utilizando (React, Redux, Axios, Node js , Express, Morgan, Cors, Dotenv y plantillas)",
-        "Concepción y optimización de contenido visual y estrategias de marketing en plataformas digitales. Diseñar y editar fotos/videos utilizando (Adobe Illustrator, Photoshop, Figma y apps de edición)",
-        "Publicidades utilizando Facebook ads en el desarrollo de anuncios y campañas en redes sociales. Business manager",
-        "Experiencia en la creación de materiales atractivos y efectivos maximizando el impacto y la visibilidad de las marcas. Con habilidades demostradas en la gestión y el cultivo de una identidad de marca"
+        "Develop e-commerce, landing pages, and web applications using (React, Redux, Axios, Node.js, Express, Morgan, Cors, Dotenv, and templates)",
+        "Conception and optimization of visual content and digital marketing strategies. Design and edit photos/videos using (Adobe Illustrator, Photoshop, Figma, and editing apps)",
+        "Ads, using Facebook ads in the development of ads and social media campaigns. Business manager",
+        "Experience in creating attractive and effective materials, maximizing brand impact and visibility. With demonstrated skills in brand identity management and cultivation."
       ]
     },
     {
       role: "Community Manager",
       company: "Scale Webs Miami",
       companylogo: require("./assets/images/scaleLogo.jpg"),
-      date: "Jun 2023 - Actual",
-      desc: "Manejo de redes sociales, edición de videos, fotos y publicidades",
+      date: "Jun 2023 - Present",
+      desc: "Social media management, video/photo editing, and advertising",
       descBullets: [
-        "Gestión de redes sociales: Creación y programación de contenido en plataformas como Facebook, Instagram, y Twitter.",
-        "Interacción con la audiencia: Responder preguntas, comentarios y mensajes para mantener una comunicación activa. ",
-        "Análisis de métricas: Seguimiento de estadísticas de redes sociales para mejorar estrategias y alcance.",
-        "Desarrollo de contenido: Creación de contenido relevante y atractivo, como imágenes, videos o blogs.",
-        "Estrategia de marketing: Colaboración en la planificación de campañas y promociones."
+        "Social media management: Creation and scheduling of content on platforms like Facebook, Instagram, and Twitter.",
+        "Audience interaction: Responding to questions, comments, and messages to maintain active communication.",
+        "Metrics analysis: Monitoring social media statistics to improve strategies and reach.",
+        "Content development: Creating relevant and engaging content, such as images, videos, or blogs.",
+        "Marketing strategy: Collaborating on campaign and promotion planning."
       ]
     },
     {
-      role: "Ingeniero",
+      role: "Engineer",
       company: "Fabrica Rivoli S.A",
       companylogo: require("./assets/images/rivoliLogo.jpg"),
       date: "Sep 2022 - Mar 2023",
-      desc: "Áreas de producto terminado, de calidad y planificación.",
+      desc: "Product, quality, and planning areas.",
       descBullets: [
-        "Consolidar el diseño y desarrollo del software para facilitar la colocación de los productos en conjunto con una nomenclatura para la asignación y recomendación de espacios disponibles.",
-        "Dirigir un proyecto de automatización junto con el layout en el área de producto terminado, para automatizar y mejorar los procesos de la fábrica, en pos de digitalizar y perfeccionar las tareas."
+        "Consolidate the design and development of software to facilitate product placement in conjunction with nomenclature for allocation and recommendation of available spaces.",
+        "Lead an automation project along with layout in the finished product area, to automate and improve factory processes, in order to digitize and perfect tasks."
       ]
     },
     {
-      role: "Nueva York, Manhattan",
-      company: "Gerenciamiento y Pág web ",
+      role: "New York, Manhattan",
+      company: "Management and Website",
       companylogo: require("./assets/images/organicmarket.jpg"),
-      date: "Dic 2021 - May 2022.",
+      date: "Dec 2021 - May 2022.",
       desc: "Freelance",
       descBullets: [
-        "Mejorar los procedimientos/procesos, administración general, control de calidad, stock, inventario, seguimiento de pedidos.",
-        "Pagina web sobre Arte a un arquitecto que vive en Manhattan "
+        "Improve procedures/processes, general administration, quality control, stock, inventory, order tracking.",
+        "Website for an architect living in Manhattan about Art."
       ]
     }
   ]
@@ -266,17 +266,17 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Proyectos",
-  subtitle: "Proyectos creados",
+  title: "Projects",
+  subtitle: "Created Projects",
   projects: [
     {
       image: require("./assets/images/proyectofinal.jpeg"),
-      projectName: "Proyecto Final Vehibuy",
-      projectDesc: 
-        "Se participó en un equipo de desarrollo ágil, presentándole a un Product Owner avances sobre el desarrollo de un E-commerce con diseño y desarrollo de las siguientes features: localstorage, cloudinary, CRUD de productos, auth de 3ros, catálogo, pasarela de mercado pago, checkout, pop-ups, borrado lógico, reviews, adm de carrito de compras, adm de usuarios",
+      projectName: "Final Project Vehibuy",
+      projectDesc:
+        "Participated in an agile development team, presenting progress to a Product Owner on the development of an E-commerce with design and development of the following features: local storage, cloudinary, CRUD of products, third-party auth, catalog, MercadoPago gateway, checkout, pop-ups, logical deletion, reviews, shopping cart management, and user management.",
       footerLink: [
         {
-          name: "Visitar Website",
+          name: "Visit Website",
           url: "https://vehibuy-rho.vercel.app/"
         }
         //  you can add extra buttons here.
@@ -286,10 +286,10 @@ const bigProjects = {
       image: require("./assets/images/reverberi.jpeg"),
       projectName: "Reverberi Architect",
       projectDesc:
-        "Mi historia con este proyecto o pagina web, empezo en 2022 cuando al crearle una carta de presentacion, para que pueda mostrar sus obras, a un arquitecto que vive en Manhattan, tuvimos una muy buena relacion laboral, por lo que le di la confianza para que me invitara luego a trabajar y vivir unos meses por allá!",
+        "My story with this project or website began in 2022 when I created a presentation letter for an architect to showcase his works. We had a very good working relationship, so he later invited me to work and live in Manhattan for a few months!",
       footerLink: [
         {
-          name: "Visitar Website",
+          name: "Visit Website",
           url: "https://www.jreverberi.com/"
         }
         //  you can add extra buttons here.
@@ -299,10 +299,10 @@ const bigProjects = {
       image: require("./assets/images/estudiopaz.jpeg"),
       projectName: "Estudio / Consultora Paz",
       projectDesc:
-        "Este proyecto o pagina web, esta realizado como una landing page de la informacion y servicios que ofrece el estudio. Contiene efectos y elementos muy profesionales para brindarle al cliente la mejor presentacion.",
+        "This project or website is designed as a landing page for information and services offered by the firm. It contains very professional effects and elements to provide clients with the best presentation.",
       footerLink: [
         {
-          name: "Visitar Website",
+          name: "Visit Website",
           url: "https://www.estudiocontablepaz.com.ar/"
         }
       ]
@@ -311,34 +311,34 @@ const bigProjects = {
       image: require("./assets/images/just4vibes.jpeg"),
       projectName: "Just4Vibes",
       projectDesc:
-        "En este proyecto, realice una página web para un grupo de inversores quienes crearon, diseñaron y comercializan una nueva marca de ropa, llamada Just4Vibes, donde priorice el minimalismo para que el protagonismo se lo lleve sus característicos Hoodies",
+        "In this project, I created a website for a group of investors who created, designed, and market a new clothing brand called Just4Vibes. I prioritized minimalism to let their distinctive hoodies take the spotlight.",
       footerLink: [
         {
-          name: "Visitar Website",
+          name: "Visit Website",
           url: "https://just4vibesclo.com/"
         }
       ]
     },
     {
       image: require("./assets/images/Henry.png"),
-      projectName: "Proyecto Individual Henry",
+      projectName: "Individual Project Henry",
       projectDesc:
-        "Creación completa de una app de países desde cero, empleando React, Redux y CSS para el Front-end, junto con un Back-end desarrollado en Node.js y Express. Incluyó diseño de base de datos y características como creación, búsqueda, filtros y ordenamientos.",
+        "Complete creation of a country app from scratch, using React, Redux, and CSS for the Front-end, along with a Back-end developed in Node.js and Express. It included database design and features like creation, searching, filtering, and sorting.",
       footerLink: [
         {
-          name: "Visitar Repositorio",
+          name: "Visit Repository",
           url: "https://github.com/GeroPazPapa1/Individual-Project---Countries.git"
         }
       ]
     },
     {
       image: require("./assets/images/Henry.png"),
-      projectName: "Proyecto Rick And Morty",
+      projectName: "Rick And Morty Project",
       projectDesc:
-        "Creación de una app web de personajes de Rick and Morty, empleando React, Redux y CSS para el Front-end, junto con un Back-end desarrollado en Node.js y Express. Incluyó diseño de base de datos",
+        "Creation of a web app for Rick and Morty characters using React, Redux, and CSS for the Front-end, along with a Back-end developed in Node.js and Express. It included database design.",
       footerLink: [
         {
-          name: "Visitar Repositorio",
+          name: "Visit Repository",
           url: "https://github.com/GeroPazPapa1/MyProjectRickAndMorty.git"
         }
       ]
@@ -352,39 +352,31 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Logros y certificaciones 🏆 "),
-  subtitle: "¡LOGROS, CERTIFICACIONES",
+  title: emoji("Achievements and Certifications 🏆 "),
+  subtitle: "ACHIEVEMENTS, CERTIFICATIONS",
 
   achievementsCards: [
     {
-      title: "Ingeniero Industrial",
+      title: "Industrial Engineer",
       subtitle:
-        "Entre las universidades mas importante del norte del pais, enfocada en las ingenierias.",
+        "Among the most important universities in the northern part of the country, focused on engineering.",
       image: require("./assets/images/unstaLogo.png"),
-      imageAlt: "Ingeniero Industria",
+      imageAlt: "Industrial Engineer",
       footerLink: [
         {
-          name: "Certificacion",
+          name: "Certification",
           url: "https://drive.google.com/file/d/1eOK0psN0NHDrYjMlL--nYjRDp2PNcNEk/view?usp=sharing"
         }
-        //{
-        //  name: "Award Letter",
-        //  url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        //},
-        //{
-        //  name: "Google Code-in Blog",
-        //  url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        //}
       ]
     },
     {
-      title: "Programador Fullstack",
-      subtitle: "800 hs de cursado teórico-práctico.",
+      title: "Full Stack Programmer",
+      subtitle: "800 hours of theoretical-practical coursework.",
       image: require("./assets/images/henryLogo.png"),
-      imageAlt: "Programador Fullstack",
+      imageAlt: "Full Stack Programmer",
       footerLink: [
         {
-          name: "Certificacion",
+          name: "Certification",
           url: "/"
         }
       ]
@@ -393,16 +385,16 @@ const achievementSection = {
       title: "EF SET English Certificate (C1 Advanced)",
       subtitle: "The achieved English level is 64/100 on the EF SET score scale and C1 Advanced according to the Common European Framework of Reference (CEFR). The EF SET score is calculated as an average of the reading and listening scores.",
       image: require("./assets/images/EFLOGO.jpg"),
-      imageAlt: "PWA Logo",
+      imageAlt: "EF SET English Certificate",
       footerLink: [
         {name: "Certification", url: "https://www.efset.org/cert/2x4yiW"},
       ]
     },
     {
-      title: "XVII CONGRESO ARGENTINO DE INGENIEROS INDUSTRIALES",
-      subtitle: "El Comité Organizador del XVII CAEll Córdoba 2019 y la Asociación Argentina de Estudiantes de Ingeniería Industrial y carreras afines, junto a la Universidad Tecnológica Nacional - Facultad Regional Córdoba y a la Universidad Nacional de Córdoba",
+      title: "XVII ARGENTINE CONGRESS OF INDUSTRIAL ENGINEERS",
+      subtitle: "The Organizing Committee of the XVII CAEI in Córdoba 2019 and the Argentine Association of Industrial Engineering and related careers, together with the National Technological University - Córdoba Regional Faculty and the National University of Córdoba",
       image: require("./assets/images/aareii.png"),
-      imageAlt: "PWA Logo",
+      imageAlt: "XVII Argentine Congress of Industrial Engineers",
       footerLink: [
         {name: "Certification", url: "https://drive.google.com/file/d/1nHKalTVPkKliFSje6CMnALxRsj4TQ1A3/view?usp=sharing"},
       ]
@@ -414,23 +406,17 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Fotos artisticas",
+  title: "Artistic Photos",
   subtitle:
-    "Amor por crear fotos artisticas, me encanta sacar fotos, editar videos y enseñarle a otros lo que he aprendido.",
+    "Passion for creating artistic photos, I love taking photos, editing videos, and teaching others what I have learned.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://www.instagram.com/minimalismforgeronico/",
       title: "Minimalism By Gero Nico",
       description:
-        "Luego de haber viajado a Nueva York, Manhattan desarrolle una pasion por sacar fotos y filmar lugares buscando darle un tono artistico."
+        "After traveling to New York, Manhattan, I developed a passion for taking photos and filming places, seeking to give them an artistic touch."
     }
-    //{
-    //  url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-    //  title: "Why REACT is The Best?",
-    //  description:
-    //    "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    //}
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -438,15 +424,15 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "Deportes",
+  title: "Sports",
   subtitle: emoji(
-    "Tengo un amor por las bicicletas y el futbol, toda la vida competi en mountain bike y ahora hago decenso🚲😅"
+    "I have a love for bicycles and soccer, I competed in mountain biking all my life and now I do downhill 🚲😅"
   ),
 
   talks: [
     {
-      title: "Campeonato de Tucuman y Catamarca",
-      subtitle: "Decenso en La Merced, y El Cadillal",
+      title: "Tuc. and Catamarca Championship",
+      subtitle: "Downhill in La Merced and El Cadillal",
       slides_url: "https://youtu.be/UeRYc5Zjfb0?si=ArZy3SgZbdDWcbM2",
       event_url: "https://youtu.be/ZnJMRmD4JdU?si=yjxAa3qEpH61eo53"
     }
@@ -457,10 +443,10 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Mi Playlist 🎙️"),
-  subtitle: "Amo la musica, pero mas la amo cuando la comparto!",
+  title: emoji("My Playlist 🎙️"),
+  subtitle: "I love music, but I love it more when I share it!",
 
-  // Please Provide with Your Podcast embeded Link
+  // Please Provide with Your Podcast embedded Link
   podcast: [
     "https://open.spotify.com/playlist/1jkJSxsOO1TmwczZZW79JU?si=4669f66a280b4f6d"
   ],
@@ -468,9 +454,9 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contactar ☎️"),
+  title: emoji("Contact ☎️"),
   subtitle:
-    "¿Quieres contactarme? No hay problema, puedes hacerlo con mi número de teléfono o mail!",
+    "Do you want to contact me? No problem, you can do it with my phone number or email!",
   number: "+54 9 3815514974",
   email_address: "geronimonicolaspazpapa@gmail.com"
 };
@@ -482,7 +468,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be displayed as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,

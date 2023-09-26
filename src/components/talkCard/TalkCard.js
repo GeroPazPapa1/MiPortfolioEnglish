@@ -16,10 +16,10 @@ export default function TalkCard({talkDetails}) {
 
           <div className="card-footer-button-div">
             <a href={talkDetails.slides_url} target="_" className="talk-button">
-              Carrera en La Merced
+              Race in La Merced
             </a>
             <a href={talkDetails.event_url} target="_" className="talk-button">
-              Carrera en El Cadillal
+              Race in El Cadillal
             </a>
           </div>
         </div>

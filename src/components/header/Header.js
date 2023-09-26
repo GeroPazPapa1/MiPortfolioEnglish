@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
@@ -14,7 +14,7 @@ import {
 } from "../../portfolio";
 
 function Header() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
@@ -34,43 +34,43 @@ function Header() {
         <label
           className="menu-icon"
           htmlFor="menu-btn"
-          style={{color: "white"}}
+          style={{ color: "white" }}
         >
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           {viewSkills && (
             <li>
-              <a href="#skills">Habilidades</a>
+              <a href="#skills">Skills</a>
             </li>
           )}
           {viewExperience && (
             <li>
-              <a href="#experience">Experiencias de trabajo</a>
+              <a href="#experience">Work Experiences</a>
             </li>
           )}
           {viewOpenSource && (
             <li>
-              <a href="#projects">Proyectos</a>
+              <a href="#projects">Projects</a>
             </li>
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">Certificados</a>
+              <a href="#achievements">Achievements</a>
             </li>
-          )}  
+          )}
           {viewBlog && (
             <li>
-              <a href="#blogs">Fotos artisticas</a>
+              <a href="#blogs">Artistic Photos</a>
             </li>
           )}
           {viewTalks && (
             <li>
-              <a href="#talks">Deportes</a>
+              <a href="#talks">Sports</a>
             </li>
           )}
           <li>
-            <a href="#contact">Contactar</a>
+            <a href="#contact">Contact</a>
           </li>
           <li>
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
