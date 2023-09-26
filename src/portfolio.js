@@ -61,7 +61,7 @@ const skillsSection = {
       "⚡ Marketing, brand activations, video and photo editing"
     ),
     emoji(
-      "⚡ I look for ways to solve processes and problems efficiently and practically, with an engineering perspective"
+      "⚡ Eager to solve processes and problems efficiently and practically, with an engineering perspective"
     )
   ],
 
