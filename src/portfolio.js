@@ -55,10 +55,10 @@ const skillsSection = {
     "I'm a cool developer who likes to explore different tech stacks, and also, learn from colleagues!",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front-end / Back-end web projects for your web and mobile applications"
+      "⚡ Develop highly interactive Front-end and Back-end web projects for your web and mobile applications"
     ),
     emoji(
-      "⚡ Also work in marketing, doing brand activations, as well as video / photo editing"
+      "⚡ Marketing, brand activations, video and photo editing"
     ),
     emoji(
       "⚡ I look for ways to solve processes and problems efficiently and practically, with an engineering perspective"
