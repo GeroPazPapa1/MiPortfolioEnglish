@@ -134,12 +134,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-globe"
     },
     {
-      skillName: "squarespace",
+      skillName: "SQUARESPACE",
       fontAwesomeClassname: "fab fa-squarespace"
     },
     {
       skillName: "FB ADS",
       fontAwesomeClassname: "fab fa-facebook"
+    },
+    {
+      skillName: "FIGMA",
+      fontAwesomeClassname: "fab fa-figma"
     }
   ],
   display: true // Set false to hide this section, defaults to true
