@@ -23,7 +23,7 @@ const greeting = {
   username: "Paz Papa",
   title: "Hello, I'm Gero!",
   subTitle: emoji(
-    "An enthusiastic industrial engineer and Full Stack software developer 🚀 with experience in building web applications using JavaScript / React / Node / Express, in addition to some other fascinating libraries and frameworks. Engineering and marketing, my other two passions!"
+    "A passionate Full Stack web engineer and developer 🚀 with experience in technologies like JavaScript / React / Node / Express, along with some other intriguing frameworks. Marketing and engineering are my other two passions!"
   ),
   resumeLink:
     "https://drive.google.com/file/d/12vnnOF69r55YzuQP_mt0VgRmOwuO7DnP/view?usp=sharing", // Set to empty to hide the button
@@ -50,7 +50,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do and techs!",
+  title: "Technologies!",
   subTitle:
     "I'm a cool developer who likes to explore different tech stacks, and also, learn from colleagues!",
   skills: [
@@ -214,10 +214,10 @@ const workExperiences = {
       date: "Mar 2020 - Present",
       desc: "Argentina/United States.",
       descBullets: [
-        "Develop e-commerce, landing pages, and web applications using (React, Redux, Axios, Node.js, Express, Morgan, Cors, Dotenv, and templates)",
-        "Conception and optimization of visual content and digital marketing strategies. Design and edit photos/videos using (Adobe Illustrator, Photoshop, Figma, and editing apps)",
-        "Ads, using Facebook ads in the development of ads and social media campaigns. Business manager",
-        "Experience in creating attractive and effective materials, maximizing brand impact and visibility. With demonstrated skills in brand identity management and cultivation."
+        "Developing e-commerce, landing pages, and web applications using (React, Redux, Axios, Node.js, Express, Morgan, Cors, Dotenv, and templates).",
+        "Crafting digital marketing strategies. Proficient in: Adobe Illustrator, Photoshop, Figma, and others).",
+        "Advertising campaigns on social media platforms using meta ads.",
+        "Creating a brand's visual identity."
       ]
     },
     {
@@ -227,11 +227,11 @@ const workExperiences = {
       date: "Jun 2023 - Present",
       desc: "Social media management, video/photo editing, and advertising",
       descBullets: [
-        "Social media management: Creation and scheduling of content on platforms like Facebook, Instagram, and Twitter.",
+        "Social media management based on a monthly plan for each required social platform.",
         "Audience interaction: Responding to questions, comments, and messages to maintain active communication.",
-        "Metrics analysis: Monitoring social media statistics to improve strategies and reach.",
-        "Content development: Creating relevant and engaging content, such as images, videos, or blogs.",
-        "Marketing strategy: Collaborating on campaign and promotion planning."
+        "Metrics analysis: Monitoring social media statistics to enhance strategies and reach.",
+        "Crafting compelling and relevant content.",
+        "Strategic marketing, campaign planning, and promotions."
       ]
     },
     {
@@ -252,8 +252,8 @@ const workExperiences = {
       date: "Dec 2021 - May 2022.",
       desc: "Freelance",
       descBullets: [
-        "Improve procedures/processes, general administration, quality control, stock, inventory, order tracking.",
-        "Website for an architect living in Manhattan about Art."
+        "Creating a website for architect Juan Cruz Reverberi.",
+        "Improving procedures/processes, overall management, quality control, stock management, inventory, and order tracking."
       ]
     }
   ]
@@ -290,7 +290,7 @@ const bigProjects = {
       image: require("./assets/images/reverberi.jpeg"),
       projectName: "Reverberi Architect",
       projectDesc:
-        "My story with this project or website began in 2022 when I created a presentation letter for an architect to showcase his works. We had a very good working relationship, so he later invited me to work and live in Manhattan for a few months!",
+        "This project began in the year 2022 when architect Juan Cruz Reverberi employed my services to write a presentation letter, allowing him to showcase his works.",
       footerLink: [
         {
           name: "Visit Website",
@@ -303,7 +303,7 @@ const bigProjects = {
       image: require("./assets/images/estudiopaz.jpeg"),
       projectName: "Estudio / Consultora Paz",
       projectDesc:
-        "This project or website is designed as a landing page for information and services offered by the firm. It contains very professional effects and elements to provide clients with the best presentation.",
+        "This website is designed as a landing page, providing information about the architectural studio and the services it offers to its clients.",
       footerLink: [
         {
           name: "Visit Website",
@@ -315,7 +315,7 @@ const bigProjects = {
       image: require("./assets/images/just4vibes.jpeg"),
       projectName: "Just4Vibes",
       projectDesc:
-        "In this project, I created a website for a group of investors who created, designed, and market a new clothing brand called Just4Vibes. I prioritized minimalism to let their distinctive hoodies take the spotlight.",
+        "The goal of this project was to create a website for a group of investors who aimed to design and market a new clothing brand. When designing this website, the top priority was to showcase a minimalist style to focus their attention on their distinctive hoodies.",
       footerLink: [
         {
           name: "Visit Website",
@@ -327,7 +327,7 @@ const bigProjects = {
       image: require("./assets/images/Henry.png"),
       projectName: "Individual Project Henry",
       projectDesc:
-        "Complete creation of a country app from scratch, using React, Redux, and CSS for the Front-end, along with a Back-end developed in Node.js and Express. It included database design and features like creation, searching, filtering, and sorting.",
+        "Complete creation of a country application from scratch, utilizing React, Redux, and CSS for the front-end, coupled with a back-end developed in Node.js and Express. This application encompassed database design and incorporated features such as creation, search, sorting, and filtering.",
       footerLink: [
         {
           name: "Visit Repository",
@@ -339,7 +339,7 @@ const bigProjects = {
       image: require("./assets/images/Henry.png"),
       projectName: "Rick And Morty Project",
       projectDesc:
-        "Creation of a web app for Rick and Morty characters using React, Redux, and CSS for the Front-end, along with a Back-end developed in Node.js and Express. It included database design.",
+        "Development of a web application for Rick and Morty characters using React, Redux, and CSS for the front-end, in conjunction with a back-end built with Node.js and Express. Additionally, database design was carried out for this project.",
       footerLink: [
         {
           name: "Visit Repository",
@@ -412,14 +412,14 @@ const achievementSection = {
 const blogSection = {
   title: "Artistic Photos",
   subtitle:
-    "Passion for creating artistic photos, I love taking photos, editing videos, and teaching others what I have learned.",
+    "I'm a passionate creator of artistic photos, sharing them with the world. I also devote the same dedication to video editing.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://www.instagram.com/minimalismforgeronico/",
       title: "Minimalism By Gero Nico",
       description:
-        "After traveling to New York, Manhattan, I developed a passion for taking photos and filming places, seeking to give them an artistic touch."
+        "After completing my journey through New York, Manhattan, I developed a strong attraction to video filming and the creation of highly artistic photographs."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -430,7 +430,7 @@ const blogSection = {
 const talkSection = {
   title: "Sports",
   subtitle: emoji(
-    "I have a love for bicycles and soccer, I competed in mountain biking all my life and now I do downhill 🚲😅"
+    "A fan of soccer, mountain biking, and downhill biking! 🚲😅"
   ),
 
   talks: [
