@@ -33,7 +33,8 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  linkedin: "https://www.linkedin.com/in/geronimo-nicolas-paz-papa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+  linkedin:
+    "https://www.linkedin.com/in/geronimo-nicolas-paz-papa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
   github: "https://github.com/GeroPazPapa1",
   gmail: "geronimonicolaspazpapa@gmail.com",
   twitter: "https://twitter.com/IngeEnPrograma",
@@ -57,9 +58,7 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front-end and Back-end web projects for your web and mobile applications"
     ),
-    emoji(
-      "⚡ Marketing, brand activations, video and photo editing"
-    ),
+    emoji("⚡ Marketing, brand activations, video and photo editing"),
     emoji(
       "⚡ Eager to solve processes and problems efficiently and practically, with an engineering perspective"
     )
@@ -348,7 +347,7 @@ const bigProjects = {
       ]
     }
   ],
-  
+
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -387,20 +386,25 @@ const achievementSection = {
     },
     {
       title: "EF SET English Certificate (C1 Advanced)",
-      subtitle: "The achieved English level is 64/100 on the EF SET score scale and C1 Advanced according to the Common European Framework of Reference (CEFR). The EF SET score is calculated as an average of the reading and listening scores.",
+      subtitle:
+        "The achieved English level is 64/100 on the EF SET score scale and C1 Advanced according to the Common European Framework of Reference (CEFR). The EF SET score is calculated as an average of the reading and listening scores.",
       image: require("./assets/images/EFLOGO.jpg"),
       imageAlt: "EF SET English Certificate",
       footerLink: [
-        {name: "Certification", url: "https://www.efset.org/cert/2x4yiW"},
+        {name: "Certification", url: "https://www.efset.org/cert/2x4yiW"}
       ]
     },
     {
       title: "XVII ARGENTINE CONGRESS OF INDUSTRIAL ENGINEERS",
-      subtitle: "The Organizing Committee of the XVII CAEI in Córdoba 2019 and the Argentine Association of Industrial Engineering and related careers, together with the National Technological University - Córdoba Regional Faculty and the National University of Córdoba",
+      subtitle:
+        "The Organizing Committee of the XVII CAEI in Córdoba 2019 and the Argentine Association of Industrial Engineering and related careers, together with the National Technological University - Córdoba Regional Faculty and the National University of Córdoba",
       image: require("./assets/images/aareii.png"),
       imageAlt: "XVII Argentine Congress of Industrial Engineers",
       footerLink: [
-        {name: "Certification", url: "https://drive.google.com/file/d/1nHKalTVPkKliFSje6CMnALxRsj4TQ1A3/view?usp=sharing"},
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1nHKalTVPkKliFSje6CMnALxRsj4TQ1A3/view?usp=sharing"
+        }
       ]
     }
   ],
