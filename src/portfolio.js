@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack web engineer and developer 🚀 with experience in technologies like JavaScript / React / Node / Express, along with some other intriguing frameworks. Marketing and engineering are my other two passions!"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/12vnnOF69r55YzuQP_mt0VgRmOwuO7DnP/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1cv5xcstgkaYQzgn_BL0ngYrz0U5sGsnp/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
