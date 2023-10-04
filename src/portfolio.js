@@ -380,7 +380,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "/"
+          url: "https://certificates.soyhenry.com/new-cert?id=98349bf95229c289c32b8197fedd00b0f00b45294e0e28dfac33617925209a95"
         }
       ]
     },
