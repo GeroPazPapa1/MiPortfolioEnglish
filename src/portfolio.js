@@ -23,7 +23,7 @@ const greeting = {
   username: "Paz Papa",
   title: "Hello, I'm Gero!",
   subTitle: emoji(
-    "A passionate Full Stack web engineer and developer 🚀 with experience in technologies like JavaScript / React / Node / Express, along with some other intriguing frameworks. Marketing and engineering are my other two passions!"
+    "A passionate Full Stack web engineer and developer 🚀 with experience in technologies like JavaScript / React / Node / Express, along with some other intriguing frameworks. Winner of Naves Scholarships with the MIT-Wallet start-up. Marketing and engineering are my other two passions!"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1cv5xcstgkaYQzgn_BL0ngYrz0U5sGsnp/view?usp=sharing", // Set to empty to hide the button
@@ -214,6 +214,18 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Winner of Naves Scholarships 🚀, CTO - Full Stack Developer",
+      company: "MIT-Wallet",
+      companylogo: require("./assets/images/wallet.jpg"),
+      date: "Feb 2023 - Actual",
+      desc: "Argentina",
+      descBullets: [
+        "MITWallet is a 3D-printed wallet made from sustainable bio-material with an integrated NFC chip that connects it to an Online Presentation Platform (BCO), offering an alternative to the traditional wallet that combines Design, Technology, and Sustainability.",
+        "We innovate in the concept of Wallet/Cardholder and Business Card by unifying them into a superior solution.",
+        "https://madeintuc.com"
+      ]
+    },
     {
       role: "Full Stack Developer, Marketing",
       company: "Freelance",
