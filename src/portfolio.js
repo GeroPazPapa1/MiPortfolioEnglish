@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack developer and Industrial Engineer 🚀 with experience in technologies like JavaScript / React / Node / Express, along with some other intriguing frameworks. Winner of Naves Scholarships with the MIT-Wallet start-up. Marketing and engineering are my other two passions!"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1cv5xcstgkaYQzgn_BL0ngYrz0U5sGsnp/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/12ZXZcBSxSp3xWoVxrpfIXCErD_laEO5v/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
